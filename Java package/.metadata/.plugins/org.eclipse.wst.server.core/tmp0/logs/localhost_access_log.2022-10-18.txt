@@ -1,0 +1,12 @@
+127.0.0.1 - - [18/Oct/2022:17:55:04 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:17:55:04 +0530] "GET /javapackage/Send HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:17:55:04 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+127.0.0.1 - - [18/Oct/2022:18:01:55 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:18:01:56 +0530] "GET /javapackage/Send HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:18:02:38 +0530] "GET /javapackage/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:18:02:55 +0530] "GET /javapackage/Send?from_email=abi&from_password=kdjfijsd&to_email=20pw01%40psgtech.ac.in HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2022:18:08:35 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:18:09:27 +0530] "GET /javapackage/Send?from_email=20pw01%40psgtech.ac.in&from_password=Abishek%4024thmarch&to_email=20pw01%40psgtech.ac.in HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:18:09:31 +0530] "GET /javapackage/Send?from_email=20pw01%40psgtech.ac.in&from_password=Abishek%4024thmarch&to_email=20pw01%40psgtech.ac.in HTTP/1.1" 200 -
+127.0.0.1 - - [18/Oct/2022:19:27:35 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [18/Oct/2022:19:27:56 +0530] "GET /javapackage/Send?from_email=20pw01%40psgtech.ac.in&from_password=Abishek%4024thmarch&to_email=20pw01%40psgtech.ac.in HTTP/1.1" 200 -

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="style1.css">
+<title>email-compose</title>
+</head>
+<body>
+	<div class="parent">
+	<div class="center1">
+      <h1>Compose email</h1>
+      <form action="compose" method="post" id="send">
+        <div class="txt_field">
+          <input type="text" name="from_email" required>
+          <span></span>
+          <label>User email</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="from_password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" name="to_email" required>
+          <span></span>
+          <label>To</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" name="subject" required>
+          <span></span>
+          <label>Subject</label>
+        </div>
+        <div class="txt_field">
+          <input type="text" name="content" required>
+          <span></span>
+          <label>Content</label>
+        </div>
+        <a href="#"><input type="submit" value="Send"></a>
+      </form>
+	</div>
+	<div class="center2">
+		<h1>In-box</h1>
+      	<form action="recieve" method="post" id="recieve">
+        	<div class="txt_field">
+          		<input type="text" name="from_email" required>
+          		<span></span>
+          		<label>User email</label>
+        	</div>
+        	<div class="txt_field">
+	          <input type="password" name="from_password" required>
+	          <span></span>
+	          <label>Password</label>
+        	</div>
+      		<input type="submit" value="Recieve">
+      </form>
+    </div>
+    </div>
+</body>
+</html>
